@@ -19,7 +19,7 @@ export default Vue.extend({
     getData() {
       this.$axios.get('http://localhost:12345/api/todo/').then(res => {
         // リクエスト成功時
-        console.log(res);
+        this.msg = res.data;
       }).catch()
     },
   },
