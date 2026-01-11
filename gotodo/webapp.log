@@ -1,0 +1,2 @@
+2026/01/11 22:54:35 users.go:42: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2026/01/11 23:07:39 base.go:28: sql: unknown driver "sqlite3" (forgotten import?)
